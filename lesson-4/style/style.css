@@ -1,0 +1,56 @@
+h1 {
+    position: absolute;
+    width: 306px;
+    height: 47px;
+    left: 50%;
+    margin-left: -153px;
+    top: 120px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 47px;
+}
+.line {
+    position: absolute;
+    width: 100px;
+    height: 4px;
+    left: 50%;
+    margin-left: -50px;
+    top: 187px;
+    background: #F5BD41;
+}
+.block{
+    margin-left: -148px;
+    position: absolute;
+    width: 296px;
+    height: 176px;
+    top: 275px;
+}
+#support {
+    left: 20%;
+}
+#communication {
+    left: 40%;
+}
+#book {
+    left: 60%;
+}
+#real {
+    left: 80%;
+}
+.text{ 
+    position: absolute;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    color: #383838;
+    width: 100%;
+    bottom: 0%;
+}
+.image{
+    display: block;
+    margin-Left: auto;
+    margin-right: auto; 
+}
