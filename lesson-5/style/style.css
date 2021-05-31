@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.menu {
+  width: 1264px;
+  padding: 120px 16px;
+  margin: 0 auto;
+  display: flex;
+}
+.list {
+  width: 416px;
+  height: 310px;
+  background-color: blue;
+}
