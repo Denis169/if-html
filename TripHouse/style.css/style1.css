@@ -7,9 +7,13 @@
   font-family: 'Roboto', sans-serif;  
 }
 
-.first-page {
+.container {
+  width: 1232px;
+  margin: 0 auto;
+}
+
+header {
   overflow: hidden;
-  width: 100%;
   background-color: #10367C;
   background-image: url(../image/castelmezzano-1979546\ 1.png);
   background-size: cover;
@@ -17,10 +21,7 @@
 }
 
 .logo-nav {
-  margin-top: 51px;
-  width: 1232px;
-  margin-left: auto;
-  margin-right: auto;
+  padding-top: 51px;
   display: flex;
   justify-content: space-between;
 }
@@ -69,9 +70,6 @@
 
 .top-section {
   margin-top: 200px;
-  width: 1232px;
-  margin-left: auto;
-  margin-right: auto;
   margin-bottom: 120px;
 }
 
@@ -165,11 +163,6 @@ h1 {
 
 /* Блок What do we offer*/
 
-.container {
-  width: 1232;
-  margin: 120px auto;
-}
-
 .What-do-we-offer {
   text-align: center;
   color: #383838;
@@ -177,6 +170,7 @@ h1 {
   font-weight: 700;
   font-size: 40px;
   line-height: 47px;
+  padding-top: 120px;
 }
 
 .What-do-we-offer:after {
@@ -190,12 +184,10 @@ h1 {
 }
 
 .content {
-  width: 1232px;
   margin-top: 90px;
-  margin-left: auto;
-  margin-right: auto;
   display: flex;
   justify-content: space-around;
+  padding-bottom: 120px;
 }
 
 .content__item {
@@ -244,17 +236,17 @@ h1 {
 /* footer*/
 
 footer {
-  width: 100%;
   background-color: #10367C;
 }
 
 .menu-footer {
-  width: 1232px;
-  padding-top: 120px;
-  margin-left: auto;
-  margin-right: auto;
+  padding: 120px 0;
+}
+
+.menu-footer__ref {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 42px;
 }
 
 .menu-footer__list {
@@ -289,15 +281,7 @@ a {
   margin-bottom: 25px;
 }
 
-.copyrate {
-  width: 1232px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 42px;
-  padding-bottom: 120px;
-}
-
-.copyrate-inscription {
+.menu-footer__copyrate {
   color: #FFFFFF;
   font-style: normal;
   font-weight: 400;
