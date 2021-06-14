@@ -20,32 +20,34 @@ header {
   background-position: center;
 }
 
-.logo-nav {
+.header__logo-nav {
   padding-top: 51px;
   display: flex;
   justify-content: space-between;
 }
 
-.logo-nav__nav {
+.header__nav {
+  width: 343px;
   display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.logo-nav__nav__stays::after{
+.header__nav__stays {
+  position: relative;
+}
+
+.header__nav__stays::after{
+  position: absolute;
   content: " ";
   display: block;
   width: 50px;
   height: 4px;
-  margin: 0 auto;
-  margin-top: 12px;
+  margin: 6px 4px;
   background-color: #F5BD41;
-  margin-top: 6px;
 }
 
-.logo-nav__nav__attractions {
-  margin-left: 24px;
-}
-
-.logo-nav__nav__stays,.logo-nav__nav__attractions {
+.header__nav__stays,.header__nav__attractions {
   display: block;
   font-style: normal;
   font-weight: normal;
@@ -54,36 +56,30 @@ header {
   text-align: center;
   color: #FFFFFF;
   text-decoration: none;
-  margin-top: 6px;
 }
 
-.logo-nav__nav__night {
-  margin-left: 48px;
-  margin-top: 5px;
+.header__nav__night {
+  display: block;
+  padding-left: 24px;
+}
+
+.header__nav__account {
   display: block;
 }
 
-.logo-nav__nav__account {
-  margin-left: 24px;
-  display: block;
-}
-
-.top-section {
+.header__top-section {
   margin-top: 200px;
   margin-bottom: 120px;
 }
 
-.top-section__h1 {
-  width: 542px;
-}
-
 h1 {
+  width: 542px;
   font-size: 46px;
   line-height: 59px;
   color: #FFFFFF;
 }
 
-.top-section__form {
+.header__form {
   width: 1232px;
   background-color: #FFFFFF;
   border-radius: 5px;
@@ -92,25 +88,25 @@ h1 {
   margin-top: 145px;
 }
 
-.top-section__input-place-block {
+.header__input-place-block {
   flex-basis: 39%;
   position: relative;
 }
 
-.top-section__input-date-block {
+.header__input-date-block {
   flex-basis: 21%;
   position: relative;
 }
 
-.top-section__input-adults-block {
-  flex-basis: 25%;
+.header__input-adults-block {
+  flex-basis: 26%;
 }
 
-.top-section__input-button-block {
-  flex-basis: 17%;
+.header__input-button-block {
+  flex-basis: 16%;
 }
 
-.top-section__input {
+.header__input {
   padding: 0 25px 0 25px;
   border-radius: 5px;
   width: 100%;
@@ -150,7 +146,7 @@ h1 {
   color: #FFFFFF;
 }
 
-.top-section__market {
+.header__market {
   margin-top: 120px;
   display: flex;
   justify-content: center;
