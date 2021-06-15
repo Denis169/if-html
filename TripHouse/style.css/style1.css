@@ -1,0 +1,288 @@
+@import url(./font.css);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;  
+}
+
+.container {
+  width: 1232px;
+  margin: 0 auto;
+}
+
+header {
+  overflow: hidden;
+  background-color: #10367C;
+  background-image: url(../image/castelmezzano-1979546\ 1.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.header__logo-nav {
+  padding-top: 51px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__nav {
+  width: 343px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__nav__stays {
+  position: relative;
+}
+
+.header__nav__stays::after{
+  position: absolute;
+  content: " ";
+  display: block;
+  width: 50px;
+  height: 4px;
+  margin: 6px 4px;
+  background-color: #F5BD41;
+}
+
+.header__nav__stays,.header__nav__attractions {
+  display: block;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.header__nav__night {
+  display: block;
+  padding-left: 24px;
+}
+
+.header__nav__account {
+  display: block;
+}
+
+.header__top-section {
+  margin-top: 200px;
+  margin-bottom: 120px;
+}
+
+h1 {
+  width: 542px;
+  font-size: 46px;
+  line-height: 59px;
+  color: #FFFFFF;
+}
+
+.header__form {
+  width: 1232px;
+  background-color: #FFFFFF;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  margin-top: 145px;
+}
+
+.header__input-place-block {
+  flex-basis: 39%;
+  position: relative;
+}
+
+.header__input-date-block {
+  flex-basis: 21%;
+  position: relative;
+}
+
+.header__input-adults-block {
+  flex-basis: 26%;
+}
+
+.header__input-button-block {
+  flex-basis: 16%;
+}
+
+.header__input {
+  padding: 0 25px 0 25px;
+  border-radius: 5px;
+  width: 100%;
+  height: 64px;
+  border: none;
+  outline: none;
+}
+
+.input-place,.input-date,.input-adults {
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.input-place:focus,.input-date:focus,.input-adults:focus {
+  border: 3px solid #F5BD41;
+}
+
+.label {
+  position: absolute;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 21px;
+  text-align: center;
+  color: #FFFFFF;
+  margin-left: 20px;
+  bottom: 87px;
+
+}
+
+.input-button {
+  background-color: #3077C6;
+  font-style: medium;
+  font-size: 24px;
+  line-height: 28px;
+  line-height: 100%;
+  color: #FFFFFF;
+}
+
+.header__market {
+  margin-top: 120px;
+  display: flex;
+  justify-content: center;
+}
+
+.google-apple-image {
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+/* Блок What do we offer*/
+
+.What-do-we-offer {
+  text-align: center;
+  color: #383838;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 47px;
+  padding-top: 120px;
+}
+
+.What-do-we-offer:after {
+  content: " ";
+  display: block;
+  width: 100px;
+  height: 4px;
+  margin: 0 auto;
+  margin-top: 20px;
+  background-color: #F5BD41;
+}
+
+.content {
+  margin-top: 90px;
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 120px;
+}
+
+.content__item {
+  padding-left: 8px;
+  padding-right: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.content__icon-container {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.content__icon-text {
+  margin-top: 40px;
+  color: #383838;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+}
+
+.Support {
+  height: 92px;
+  width: 76px;
+}
+
+.Communicate {
+  width: 84px;
+  height: 84px;
+}
+
+.Book {
+  height: 68px;
+  width: 100px;
+}
+.Real-guest-reviews{
+  height: 84px;
+  width: 92px;
+}
+
+/* footer*/
+
+footer {
+  background-color: #10367C;
+}
+
+.menu-footer {
+  padding: 120px 0;
+}
+
+.menu-footer__ref {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 42px;
+}
+
+.menu-footer__list {
+  width: 410px;
+  padding-left: 8px;
+  padding-right: 8px;
+  display: flex;
+  flex-direction: column;
+}
+
+.menu-footer__header {
+  color: #FFFFFF;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 23px;
+  text-align: left;
+  margin-bottom: 25px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.menu-footer__link {
+  color: #FFFFFF;
+  font-style: normal;
+  font-weight: 100;
+  font-size: 19px;
+  line-height: 23px;
+  text-align: left;
+  margin-bottom: 25px;
+}
+
+.menu-footer__copyrate {
+  color: #FFFFFF;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 23px;
+}
+
+
